@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: add date
         run: |
-          date >> ./../README.md
+          date >> ./../../README.md
       - name: commit files
         run: |
           git status
